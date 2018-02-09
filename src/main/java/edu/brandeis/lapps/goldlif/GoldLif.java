@@ -5,8 +5,6 @@ import org.lappsgrid.serialization.Serializer;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
-import java.util.Collections;
 
 /**
  * Program to get gold lif examples, given schema versions as a parameter. <br/>
@@ -19,7 +17,7 @@ public class GoldLif {
 
     private static String latestSchema = "1.1.0";
     private static String goldLifFileBaseName = "lif-all";
-    private static String goldLifFileExtName = "lif";
+    private static String goldLifFileExtName = "json";
 
     private static String getGoldLifFileName(String schemaVersion) {
         return String.format("%s-%s.%s", goldLifFileBaseName, schemaVersion, goldLifFileExtName);
