@@ -16,6 +16,10 @@
               "producer": "hand-written-sample",
               "type": "sentences"
             },
+            "http://vocab.lappsgrid.org/Token": {
+              "producer": "hand-written-sample",
+              "type": "tokens"
+            },
             "http://vocab.lappsgrid.org/Token#pos": {
               "producer": "hand-written-sample",
               "type": "tokens-pos",
