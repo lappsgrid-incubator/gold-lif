@@ -208,18 +208,20 @@
             "id": "ne_0",
             "start": 0,
             "end": 5,
-            "@type": "http://vocab.lappsgrid.org/Person",
+            "@type": "http://vocab.lappsgrid.org/NamedEntity",
             "features": {
-              "word": "Karen"
+              "word": "Karen",
+              "category": "Person"
             }
           },
           {
             "id": "ne_1",
             "start": 14,
             "end": 22,
-            "@type": "http://vocab.lappsgrid.org/Location",
+            "@type": "http://vocab.lappsgrid.org/NamedEntity",
             "features": {
-              "word": "New York"
+              "word": "New York",
+              "category": "Location"
             }
           },
           {
